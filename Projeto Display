@@ -1,0 +1,75 @@
+Arquivo principal
+
+<!DOCTYPE html>
+<html lang="en">
+        <!--Control + B, some a tela de arquivos do lado direito-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="/Aula.css" >
+    <title>Carros e Bicicletas</title>
+</head>
+<body>
+    <h1> Carros e Bicicletas </h1>
+
+<div class="item"> 
+    <h2> Carro: <span> R$ 1999 </span> </h2> 
+    <p> Carro modelo <span> 2045</span>, com <span> 200km </span> rodados. </p> 
+    <a href="//"> Comprar carro </a>
+</div>
+
+<div class="item"> 
+    <h2> Bicicleta: <span> R$ 199 </span> </h2> 
+    <p> Carro modelo <span> 2050</span>, com <span> 20km </span> rodados. </p> 
+    <a href="//"> Comprar bicicleta </a>
+</div>
+
+
+</body>
+</html>
+
+CSS display
+===========================
+
+body{
+    margin: 0;
+    font-family: Arial;
+    margin: 50px;
+}
+
+h1{
+    text-align: center;
+}
+
+.item{
+    background-color: #111;
+    color: #fff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 4px;
+}
+
+span{
+    color: #febe01;
+}
+
+p{
+color: #b2b2b2;
+
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    background-color:  #febe01;
+    color: #332200;
+    padding: 10px;
+    border-radius: 4px;
+
+}
+
+h2{
+    margin: 0px;
+}
