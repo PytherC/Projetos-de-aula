@@ -1,1 +1,85 @@
+Pagina principal
+===========================================
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Aula.css" >
+    <title>Cinema</title>
+</head>
+<body>
+
+<h1> Cinema </h1>
+<a href="/rj.html" class="Estados"> Rio de janeiro </a>
+<p> <a href="/sp.html" class="Estados"> São paulo </a> </p>
+
+    
+</body>
+</html>
+
+
+Pagina de filmes 01
+===========================================
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Aula.css" >
+    <title>Rio de Janeiro</title>
+</head>
+<body>
+    <a href="/Cinema.html"> Inicio </a>
+    <h1> Rio de janeiro </h1>
+    <p class="Hoje"> Lisbela e o prisioneiro - 21: 00 - Hoje </p>
+    <p class="Hoje"> Meu nome não é Jhonny - 22: 00 - Hoje </p>
+    <p class="Amanha"> O cheiro do ralo - 18: 00 - Amanhã </p>
+    
+</body>
+</html>
+
+Pagina de filmes 02
+=============================================
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Aula.css" >
+    <title>São paulo</title>
+</head>
+<body>
+    <a href="/Cinema.html"> Inicio </a>
+    <h1> São Paulo </h1>
+    <p class="Hoje"> Lisbela e o prisioneiro - 22: 00 - Hoje </p>
+    <p class="Hoje"> Meu nome não é Jhonny - 23: 00 - Hoje </p>
+    <p class="Amanha"> O cheiro do ralo - 15: 00 - Amanhã </p>
+</body>
+</html>
+
+
+CSS das pagina
+===========================================
+.Estados{
+    color: green;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.Hoje{
+    color: red;
+    font-size: 20px;
+}
+
+.Amanha{
+    color: blue;
+    font-size: 20px;
+}
 
